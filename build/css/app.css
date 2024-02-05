@@ -407,16 +407,12 @@ ul {
 .site-header .contenido-header h1 {
   color: #FFFFFF;
   font-size: 4.5rem;
+  max-width: 100%;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .site-header .contenido-header h1 {
     font-size: 6rem;
-    max-width: 50%;
-  }
-}
-@media (min-width: 1024px) {
-  .site-header .contenido-header h1 {
-    max-width: 40%;
   }
 }
 
